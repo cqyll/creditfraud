@@ -1,0 +1,26 @@
+name: creditfraud
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12.3
+  - black
+  - flake8
+  - isort
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - tensorflow
+  - seaborn
+  - python-dotenv
+  - mkdocs
+  - pip
+  - pip:
+    - -e .
