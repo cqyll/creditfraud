@@ -78,5 +78,25 @@ Results Interpretation: Analyze and interpret the results, highlighting the stre
         └── visualize.py
 ```
 
+## Setup Instructions
+
+To get started with this project, follow the steps below to set up your development environment using Conda.
+
+### 1. Clone the Repository
+
+```sh
+git clone https://github.com/your-username/creditfraud.git
+cd creditfraud
+```
+
+### 2. Create & Activate Conda Environment
+
+```sh
+conda env create -f environment.yml
+conda activate creditfraud
+```
+
+
+
 --------
 
