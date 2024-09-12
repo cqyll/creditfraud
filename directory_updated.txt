@@ -1,0 +1,101 @@
+.
+├── LICENSE
+├── Makefile
+├── README.md
+├── XGHistClassifier.log
+├── __main__.log
+├── creditfraud
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-312.pyc
+│   ├── data
+│   │   ├── external
+│   │   ├── interim
+│   │   ├── processed
+│   │   │   └── resampled_creditcard.csv.gz
+│   │   └── raw
+│   │       └── creditcard.csv.gz
+│   ├── docs
+│   │   ├── README.md
+│   │   ├── docs
+│   │   │   ├── getting-started.md
+│   │   │   └── index.md
+│   │   └── mkdocs.yml
+│   ├── frauddetection
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   └── config.cpython-312.pyc
+│   │   ├── config.py
+│   │   ├── data
+│   │   │   └── smote.py
+│   │   ├── dataset.py
+│   │   ├── features.py
+│   │   ├── modeling
+│   │   │   ├── __init__.py
+│   │   │   ├── predict.py
+│   │   │   └── train.py
+│   │   ├── models
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── __init__.cpython-312.pyc
+│   │   │   └── dt
+│   │   │       ├── XGHist.py
+│   │   │       ├── __init__.py
+│   │   │       ├── __pycache__
+│   │   │       │   ├── __init__.cpython-312.pyc
+│   │   │       │   ├── criterion.cpython-312.pyc
+│   │   │       │   ├── decisiontree_with_cache.cpython-312.pyc
+│   │   │       │   ├── histogram.cpython-312.pyc
+│   │   │       │   ├── tree1.cpython-312.pyc
+│   │   │       │   ├── utils.cpython-312.pyc
+│   │   │       │   └── xghist_classifier.cpython-312.pyc
+│   │   │       ├── criterion.py
+│   │   │       ├── decisiontree_with_cache.py
+│   │   │       ├── gradient_boosting.py
+│   │   │       ├── gradient_boosting_with_cache.py
+│   │   │       ├── histogram.py
+│   │   │       ├── loss_functions.py
+│   │   │       ├── splitter_cache.py
+│   │   │       ├── splitter_sorted.py
+│   │   │       ├── tree.py
+│   │   │       ├── tree1.py
+│   │   │       ├── utils.py
+│   │   │       └── xghist_classifier.py
+│   │   └── plots.py
+│   ├── notebooks
+│   │   ├── Credit fraud notebook.ipynb
+│   │   ├── EDA.ipynb
+│   │   └── smote.ipynb
+│   ├── references
+│   ├── reports
+│   │   └── figures
+│   ├── scripts
+│   │   ├── format_selected_files.sh
+│   │   ├── run_xghist_comparison.py
+│   │   └── test_small.py
+│   └── tests
+│       ├── __init__.py
+│       ├── check_base.py
+│       ├── log_reader.py
+│       ├── parse_grad.py
+│       ├── spark.py
+│       ├── test_histogram.py
+│       ├── test_histogram_creation.py
+│       ├── test_indexing.py
+│       ├── test_split_finding.py
+│       ├── test_tree.py
+│       ├── test_tree_building.py
+│       ├── test_xG.py
+│       ├── test_xg.py
+│       └── test_xghist_classifier.py
+├── directory_structure.txt
+├── directory_updated.txt
+├── environment.yml
+├── frauddetection.models.dt.xghist_classifier.log
+├── generate_yml.py
+├── pyproject.toml
+├── requirements.txt
+└── setup.cfg
+
+23 directories, 75 files
